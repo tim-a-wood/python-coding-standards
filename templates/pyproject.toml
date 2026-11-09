@@ -1,0 +1,7 @@
+# Merge these settings into the target project's pyproject.toml.
+# Example only; not a standalone project configuration.
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B"]
